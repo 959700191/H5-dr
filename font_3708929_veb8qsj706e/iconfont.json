@@ -1,0 +1,23 @@
+{
+  "id": "3708929",
+  "name": "homeWork",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22779665",
+      "name": "数译_学生",
+      "font_class": "shuyi_xuesheng",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "825092",
+      "name": "访客",
+      "font_class": "fangke",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}
