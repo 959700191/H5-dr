@@ -30,24 +30,32 @@
 				margin-left: 10px;
 				transform: left 4s;
 				/* display: inline; */
-				animation: vis 10s;
+				animation: vis 1s;
+				position: absolute;
+			
 			}
 			
-			.divv:hover{
-				width: 300px;
+			div:hover {
+				width: 300px;	
+			}
+		
+			div:hover .vistext{
+				display：inline-block;
+				
 			}
 
-			@keyframes vis {
-				100%{left:100px}
+			div:hover .vistor{
+				left:235px
 			}
 			.vistext{
-				/* background-color: blueviolet; */
-				/* display: none; */
-				font-size: 18px;
-				/* display: none; */
-				margin-left: 20px;
-				margin-top: 30px;
+			/* display: none; */
+			font: optional;
+			line-height:80px;
+			margin-left: 20px;
+			position:absolute ;
+	
 			}
+			
 			.line{
 				height: 20px;
 			}
