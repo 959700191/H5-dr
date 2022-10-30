@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>02-javaScript函数与事件</title>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			div{
+				width: 300px;
+				height: 400px;
+				background-image: url(../img/jsq.jpg);
+				margin: auto;
+			}
+			input{
+				margin-top: 150px;
+			}
+		</style>
+		<script>
+			function start(){
+				alert("我来咯！")
+			}
+			
+			function chage(){
+				alert("你输入了什么")
+				var te = document.getElementById("test")
+				alert("你输入的是"+te.value)
+				
+			}
+		</script>
+	</head>
+	<body onload="start()">
+		<div class="fu()">
+			请输入：<input type="text" onchange="chage()" id="test"/>
+		</div>
+	</body>
+</html>
