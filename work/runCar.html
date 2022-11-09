@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>跑动的小汽车</title>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			.fu{
+				position: relative;
+				top: 50px;
+				left: 50px;
+				height: 500px;
+				width: 700px;
+				border: 5px solid red;
+				border-radius: 50px 50px 50px 50px;
+				
+			}
+			.xu{
+				height: 450px;
+				width: 650px;
+				border: 5px dashed rebeccapurple;
+				margin-top: 20px;
+				margin-left: 17px;
+				border-radius: 50px 50px 50px 50px;
+				
+			}
+			.shi{
+				height: 400px;
+				width: 600px;
+				border: 5px solid red;
+				margin-top: 15px;
+				margin-left: 15px;
+				border-radius: 50px 50px 50px 50px;
+			}
+			#pic{
+				position: absolute;
+				float: left;
+				animation: run 10s infinite;
+			}
+			#pic:hover{
+				animation-play-state: paused;
+			}
+			img{
+				width: 80px;
+				height: 50px;	
+			}
+			@keyframes run {
+				0%  {left: 0px;top: 0px;}
+				25% {left: 650px; top:0px}
+				50% {left: 650px; top:450px}
+				75% {left:0px; top:450px}
+				100%{left:0px; top:0px}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fu">
+			<div id="pic"><img src="../img/119.png"/></div>
+			<div class="xu">
+				<div class="shi"></div>
+			</div>
+			
+		</div>
+	</body>
+</html>
